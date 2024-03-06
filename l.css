@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 26, 26);
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+p {
+    text-align: center;
+    color: rgb(117, 116, 116);
+    font-size: 20px;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+img {
+    width: 90%; /* تحديد عرض الصورة بنسبة معينة من عرض العنصر الأب */
+  height: auto; 
+  gap: 10px;
+ }
+ figcaption {
+    text-align: center;
+    color: white;
+    padding-top: 9px;
+ }
